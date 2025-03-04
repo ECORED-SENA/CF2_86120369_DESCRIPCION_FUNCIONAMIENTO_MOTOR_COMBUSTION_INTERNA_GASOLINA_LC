@@ -2,442 +2,124 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido.mb-0(data-aos="flip-up")
       .titulo-principal__numero
         span 1
-      h1 Titulo de primer nivel
-    AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
-      .row(titulo="Titulo item 1")
-        .col-md-6.mb-4.mb-md-0
-          p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-      
-        .col-md-6
-          figure
-            img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-            figcaption Leyenda de la imagen
-
-      div(titulo="Titulo item 2")
-        figure
-          img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-          figcaption Leyenda de la imagen
-    Separador
-    AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
-      .row(titulo="Titulo item 1")
-        .col-md-6.mb-4.mb-md-0
-          p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-        .col-md-6
-          figure
-            img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-            figcaption Leyenda de la imagen
-      .row(titulo="Titulo item 2")
-        .col-md-6
-          figure
-            img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-            figcaption Leyenda de la imagen
-
-        .col-md-6.mb-4.mb-md-0
-          p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-    Separador
-    ImagenInfografica.color-primario
-      template(v-slot:imagen)
-        figure
-          img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-          figcaption Leyenda de la imagen
-      .tarjeta.color-acento-botones.p-3(x="20%" y="20%" numero="1")
-        .h5.mb-2 titulo
-        p Lorem ipsum dolor Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
-
-      .tarjeta.color-acento-botones.p-3(x="50%" y="50%" numero="A")
-        .h5.mb-2 titulo
-        p Lorem ipsum dolor ddasdasd asdasd asdasd a asd sd asdasd sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
-
-      .tarjeta.color-acento-botones.p-3(x="70%" y="70%" numero="B")
-        .h5.mb-2 titulo
-        p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
-    Separador
-    ImagenInfograficaB.color-primario
-      template(v-slot:imagen)
-        figure
-            img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-            figcaption Leyenda de la imagen
-      div(x="20%" y="20%" tooltip="tooltip de max 35 caracteres" numero="1")
-        h5 titulo
-        p Lorem ipsum dolor Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
-        p Lorem ipsum dolor Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
-        p Lorem ipsum dolor Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
-      div(x="50%" y="50%" tooltip="tooltip de max 35 caracteres")
-        h5.mb-2 titulo
-        p Lorem ipsum dolor ddasdasd asdasd asdasd a asd sd asdasd sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
-      div(x="70%" y="70%" tooltip="tooltip de max 35 caracteres")
-        .h5.mb-2 titulo
-        p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
-    Separador
-    TarjetaAudio.color-primario.mb-3(
-      texto="Texto de muestra  "
-      :audio="require('../assets/componentes/audios/audio-ej.mp3')"
-      @audio-hover="mostrarIndicadorTarjetaAudio = false"
-    )
-      .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
-    TarjetaAudio.color-secundario.mb-3(
-      texto="Texto de muestra <br> Texto de muestra "
-      :audio="require('../assets/componentes/audios/audio-ej.mp3')"
-    )
-    Separador
-    .tarjeta.tarjeta--azul.p-4
-      SlyderA(tipo="b")
-        .row
-          .col-md-6.mb-4.mb-md-0
-            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-
-          .col-md-6
-            figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-              figcaption Leyenda de la imagen
-
-        .row.justify-content-center.align-items-center.my-lg-4
-          .col-md-6
-            figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-              figcaption Leyenda de la imagen
-
-          .col-md-6.mb-4.mb-md-0
-            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-    Separador
-    .tarjeta.tarjeta--gris.p-4
-      PasosB.color-acento-contenido
-        .row(titulo="")
-          .col-md-6.mb-4.mb-md-0
-            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-          .col-md-6
-            figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-              figcaption Leyenda de la imagen
-        .row(titulo="")
-          .col-md-6
-            figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-              figcaption Leyenda de la imagen
-          .col-md-6.mb-4.mb-md-0
-            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-    Separador
-    .tarjeta.tarjeta--gris.p-4
-      LineaTiempoC.color-acento-contenido(text-small)
-        .row(titulo="Titulo 1")
-          .col-md-6.mb-4.mb-md-0
-            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-          .col-md-6
-            figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-              figcaption Leyenda de la imagen
-        .row(titulo="Titulo 2")
-          .col-md-6
-            figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-              figcaption Leyenda de la imagen
-          .col-md-6.mb-4.mb-md-0
-            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-    Separador
-    SlyderF(columnas="col-lg-6 col-xl-4")
-      .tarjeta.color-acento-botones.p-4
-        .row.justify-content-center.mb-3
-          .col-8
-            img(src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
-        h2.text-center FIRST
-        p.text-center moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
-      .tarjeta.color-acento-botones.p-4
-        .row.justify-content-center.mb-3
-          .col-8
-            img(src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
-        h2.text-center 2
-        p.text-center moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
-      .tarjeta.color-acento-botones.p-4
-        .row.justify-content-center.mb-3
-          .col-8
-            img(src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
-        h2.text-center 3
-        p.text-center moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
-      .tarjeta.color-acento-botones.p-4
-        .row.justify-content-center.mb-3
-          .col-8
-            img(src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
-        h2.text-center 4
-        p.text-center moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
-      .tarjeta.color-acento-botones.p-4
-        .row.justify-content-center.mb-3
-          .col-8
-            img(src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
-        h2.text-center 5
-        p.text-center moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
-      .tarjeta.color-acento-botones.p-4
-        .row.justify-content-center.mb-3
-          .col-8
-            img(src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
-        h2.text-center 6
-        p.text-center moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
-      .tarjeta.color-acento-botones.p-4
-        .row.justify-content-center.mb-3
-          .col-8
-            img(src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
-        h2.text-center 7
-        p.text-center moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
-      .tarjeta.color-acento-botones.p-4
-        .row.justify-content-center.mb-3
-          .col-8
-            img(src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
-        h2.text-center LAST
-        p.text-center moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
-    Separador
-    LineaTiempoD.color-primario
-      .row(numero="1" titulo="Praesent luctus")
-        .col-md-6.mb-4.mb-md-0
-          p.text-small This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-        .col-md-6
-          figure
-            img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-            figcaption Leyenda de la imagen
-      .row(numero="2" titulo="Praesent luctus")
-        .col-md-6
-          figure
-            img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-            figcaption Leyenda de la imagen
-        .col-md-6.mb-4.mb-md-0
-          p.text-small This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-      .row(numero="3" titulo="Praesent luctus")
-        .col-md-6
-          figure
-            img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-            figcaption Leyenda de la imagen
-        .col-md-6.mb-4.mb-md-0
-          p.text-small This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion. 
-    Separador
-    TabsA.color-acento-botones
-      .tarjeta.color-acento-botones--borde.p-4(titulo="PASO 1")
-        h4 PASO 1: The splendor
-        p This is a normal paragraph (<code>p</code> element). To add some length to it, let us mention that this page was primarily written for testing the effect of 
-          strong user style sheets
-          |. You can use it for various other purposes as well, like just checking how your browser displays various HTML elements by default. It can also be useful when testing conversions from HTML format to other formats, since some elements can go wrong then.
-        p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-      .tarjeta.color-acento-botones--borde.p-4(titulo="PASO 2")
-        h4 PASO 2: The splendor
-        .row
-          .col-xl-6.mb-4
-            figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-              figcaption Leyenda de la imagen
-          .col-xl-6
-            p This is a normal paragraph (<code>p</code> element). To add some length to it, let us mention that this page was primarily written for testing the effect of 
-              strong user style sheets
-              |. You can use it for various other purposes as well, like just checking how your browser displays various HTML elements by default. It can also be useful when testing conversions from HTML format to other formats, since some elements can go wrong then.
-            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-    Separador
-    TabsC.color-primario
-      .py-3.py-md-4(titulo="The splendor of the mystery")
-        .row
-          .col-md-6.mb-4.mb-md-0
-            h4 Celebrate your failures 1
-            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-          .col-md-6
-            figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-              figcaption Leyenda de la imagen
-      .py-3.py-md-4(titulo="Don’t lie to yourself")
-        .row
-          .col-md-6.mb-4.mb-md-0
-            figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-              figcaption Leyenda de la imagen
-          .col-md-6
-            h4 Celebrate your failures 2
-            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion. 
-    Separador
-    TabsB.color-primario
-      .py-4.py-md-5(titulo="The splendor of the mystery" :icono="require('@/assets/componentes/ej-04.svg')")
-        .row
-          .col-md-6.mb-4.mb-md-0
-            h4 Celebrate your failures 1
-            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-          .col-md-6
-            figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-              figcaption Leyenda de la imagen
-      .py-4.py-md-5(titulo="Don’t lie to yourself" :icono="require('@/assets/componentes/ej-04.svg')")
-        .row
-          .col-md-6.mb-4.mb-md-0
-            figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-              figcaption Leyenda de la imagen
-          .col-md-6
-            h4 Celebrate your failures 2
-            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-    Separador
-    LineaTiempoE.color-primario
-      .row(titulo="2014 - Present" subtitulo="Title, Company")
-        .col-lg-6.mb-4.mb-lg-0
-          p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-        .col-lg-6
-          figure
-            img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-            figcaption Leyenda de la imagen
-      .row(titulo="2014 - Present" subtitulo="Title, Company")
-        .col-lg-6
-          figure
-            img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-            figcaption Leyenda de la imagen      
-        .col-lg-6.mb-4.mb-lg-0
-          p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-    Separador
-    PasosA.color-primario.mb-5(tipo="n")
-      .row
-        .col-md-6.mb-4.mb-md-0
-          h3 Lorem ipsum dolor sit amet.
-          p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-        .col-md-6
-          figure
-            img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-            figcaption Leyenda de la imagen
-      .row
-        .col-md-6.mb-4.mb-md-0
-          figure
-            img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-            figcaption Leyenda de la Imagen
-        .col-md-6
-          h3 Nullam vulputate mauris eros, ut.
-          p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-      .row
-        .col-md-6.mb-4.mb-md-0
-          h3 Duis laoreet est non ligula.
-          p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-        .col-md-6
-          figure
-            img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-            figcaption Leyenda de la imagen
-      .row
-        .col-md-6.mb-4.mb-md-0
-          h3 Duis laoreet est non ligula.
-          p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-        .col-md-6
-          figure
-            img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-            figcaption Leyenda de la imagen
-    Separador
-    p(data-aos="fade-left").mb-4 This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-    .row
-      .col-sm-6.col-lg-3.mb-4.mb-lg-0
-        .tarjeta--boton.color-primario.p-4
-          .row.justify-content-center.mb-3
-            .col-7
+      h1 Partes de la culata
+    .row.justify-content-center
+      .col-lg-10(data-aos="fade-down")
+        .row.justify-content-center
+          .col-md-7.col-lg-4.bg-c3
+            .p-3
               figure
-                img(src='@/assets/componentes/ej-05.svg', alt='Texto que describa la imagen')
-          h3.text-center Intuition important
-          p.text-small Sed ut perspiciatis unde omnis iste natus error sit vtatem accusa ntium dol.
-      .col-sm-6.col-lg-3.mb-4.mb-lg-0
-        .tarjeta--boton.color-secundario.p-4
-          .row.justify-content-center.mb-3
-            .col-7
-              figure
-                img(src='@/assets/componentes/ej-05.svg', alt='Texto que describa la imagen')
-          h3.text-center Intuition important
-          p.text-small Sed ut perspiciatis unde omnis iste natus error sit vtatem accusa ntium dol.
-      .col-sm-6.col-lg-3.mb-4.mb-sm-0
-        .tarjeta--boton.color-acento-contenido.text-white--hover.p-4
-          .row.justify-content-center.mb-3
-            .col-7
-              figure
-                img(src='@/assets/componentes/ej-05.svg', alt='Texto que describa la imagen')
-          h3.text-center Intuition important
-          p.text-small Sed ut perspiciatis unde omnis iste natus error sit vtatem accusa ntium dol.
-      .col-sm-6.col-lg-3
-        .tarjeta--boton.color-acento-botones.p-4
-          .row.justify-content-center.mb-3
-            .col-7
-              figure
-                img(src='@/assets/componentes/ej-05.svg', alt='Texto que describa la imagen')
-          h3.text-center Intuition important
-          p.text-small Sed ut perspiciatis unde omnis iste natus error sit vtatem accusa ntium dol.
+                img(src='@/assets/curso/tema1/img1.svg', alt='', style="width: 60px").m-auto
+          .col-md-7.col-lg-8.bg-c4
+            .row.h-100.align-items-center
+              .col-12
+                .p-3
+                  p.mb-0 A continuación, estudiaremos las partes de la culata.
     Separador
-    .tarjeta--container.row.mb-5
-      .col-md.tarjeta.color-primario.p-5
-        .row.justify-content-center.mb-4
-          .col-6
-            figure
-              img(src='@/assets/componentes/ej-05.svg', alt='Texto que describa la imagen')
-        h2.text-center Celebrate your<br>failures
-        p To surpass others is fucking tough, if you only do as you are told you don’t have it in you to succeed. Think about all the possibilities. You’ve been placed in the crucial moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
-      .col-md.tarjeta.color-acento-botones.p-5
-        .row.justify-content-center.mb-4
-          .col-6
-            figure
-              img(src='@/assets/componentes/ej-05.svg', alt='Texto que describa la imagen')
-        h2.text-center Sterility leads to<br>susceptibility
-        p Remember it’s called the creative process, it’s not the creative moment. Saul Bass on failure: Failure is built into creativity… the creative act involves this element of ‘newness’ and ‘experimentalism,’ then one must expect and accept the possibility of failure.
-      .col-md.tarjeta.color-acento-contenido.text-white.p-5
-        .row.justify-content-center.mb-4
-          .col-6
-            figure
-              img(src='@/assets/componentes/ej-05.svg', alt='Texto que describa la imagen')
-        h2.text-center Sterility leads to<br>susceptibility
-        p Remember it’s called the creative process, it’s not the creative moment. Saul Bass on failure: Failure is built into creativity… the creative act involves this element of ‘newness’ and ‘experimentalism,’ then one must expect and accept the possibility of failure.
+    #t_1_1
+    .titulo-segundo.color-acento-contenido
+      h2 1.1. Seguros y platillos
+    .row.bg-c5
+      .col-12
+        .px-5
+          .row.mb-0.mb-lg-4
+            .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
+              p.mb-0 La parte superior del vástago de la válvula dispone de una o varias ranuras, que sirven para instalar los seguros cónicos entre éstas y el platillo de apoyo del muelle de válvula. Según la fuerza del muelle que será instalado, los esfuerzos que estarán sujetos a cada válvula, se diseñan sus seguros y estos, se acoplarán en las ranuras superiores del vástago.
+            .col-lg-4.mb-4.mb-lg-0(data-aos="fade-down")
+              figure
+                img(src='@/assets/curso/tema1/img2.png', alt='', style="width: 360px").m-auto
+            .col-lg-4(data-aos="fade-left")
+              figure.d-none.d-lg-block
+                img(src='@/assets/curso/intro/img4.png', alt='', style="width: 100px")
+              p.mb-0 La función principal que cumplen los seguros de la válvula, es la de mantener al platillo fijo. De manera que la acción del muelle, le permita ser impulsada por el balancín o propulsor y a su vez, por la leva del eje de levas y así obligar a la válvula a regresar hasta su asiento, sellándolo.
+          .row
+            .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
+              figure
+                img(src='@/assets/curso/tema1/img3.png', alt='', style="width: 360px").m-auto
+            .col-lg-8(data-aos="fade-left")
+              .p-4.bg-c6
+                .row.align-items-center.mb-4
+                  .col-auto
+                    figure
+                      img(src='@/assets/curso/tema1/img3.svg', alt='', style="width: 60px").m-auto
+                  .col
+                    p.mb-0 Si la tensión del muelle es relativamente baja, se podrán utilizar solamente seguros de válvula con una sola ranura; pero si esta tensión de uno o varios muelles es elevada, se recomienda utilizar válvulas con varias ranuras y seguros apropiados que se inserten en ellas.
+                .row.justify-content-center
+                  .col-lg-auto
+                    .titulo-sexto.color-acento-contenido.mb-3
+                      p.mb-0 #[b Figura 1]. Seguro
+                    figure
+                      figure
+                      img(src='@/assets/curso/tema1/img2.svg', alt='La imagen muestra un esquema detallado del mecanismo de una válvula de motor, destacando sus componentes principales: platillo, retenedor, válvula, seguro, muelle y cabezote.', style="width: 380px").m-auto
     Separador
-    .row
-      .col-sm-6.col-xl-3.mb-4.mb-xl-0
-        .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
-          .indicador--hover(v-if="indicadorTarjetaSlide")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__contenido.p-4.p-xl-5
-              h1 John Doe
-              p Lorem ipsum dolor sit amet, 
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/template/avatar.svg')})`}")
-      .col-sm-6.col-xl-3.mb-4.mb-xl-0
-        .tarjeta.tarjeta-slide.abajo.color-secundario(@mouseover="indicadorTarjetaSlide = false")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/template/avatar.svg')})`}")
-            .tarjeta-slide__contenido.p-4.p-xl-5
-              h1 John Doe
-              p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus id, vulputate turpis.
-      .col-sm-6.col-xl-3.mb-4.mb-sm-0
-        .tarjeta.tarjeta-slide.derecha.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/template/avatar.svg')})`}")
-            .tarjeta-slide__contenido.p-4.p-xl-5
-              h1 John Doe
-              p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus id, vulputate turpis.
-      .col-sm-6.col-xl-3
-        .tarjeta.tarjeta-slide.izquierda.color-acento-botones(@mouseover="indicadorTarjetaSlide = false")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/template/avatar.svg')})`}")
-            .tarjeta-slide__contenido.p-4.p-xl-5
-              h1 John Doe
-              p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus id, vulputate turpis.
-    Separador
-    .row
-      .col-md-6.col-xl.mb-4.mb-xl-0
-        .tarjeta-numerada.color-primario.p-5
-          .tarjeta-numerada__numero
-            .h2 1
-          p.text-center 
-            b Ruta integral de atención en salud 
-          p.text-center Acciones realizadas en los entornos donde transcurre la vida y se desarrollan las personas
-      .col-md-6.col-xl.mb-4.mb-xl-0
-        .tarjeta-numerada.color-secundario.p-5
-          .tarjeta-numerada__numero
-            .h2 2
-          p.text-center 
-            b Ruta integral de atención en salud 
-          p.text-center Acciones realizadas en los entornos donde transcurre la vida y se desarrollan las personas
-      .col-md-6.col-xl.mb-4.mb-xl-0
-        .tarjeta-numerada.color-acento-contenido.p-5
-          .tarjeta-numerada__numero
-            .h2 3
-          p.text-center 
-            b Ruta integral de atención en salud 
-          p.text-center Acciones realizadas en los entornos donde transcurre la vida y se desarrollan las personas
-      .col-md-6.col-xl.mb-4.mb-xl-0
-        .tarjeta-numerada.color-acento-botones.p-5
-          .tarjeta-numerada__numero
-            .h2 4
-          p.text-center 
-            b Ruta integral de atención en salud 
-          p.text-center Acciones realizadas en los entornos donde transcurre la vida y se desarrollan las personas
+    #t_1_2
+    .titulo-segundo.color-acento-contenido
+      h2 1.2. Conductos de admisión de la culata
+    .row.bg-c7.mb-4
+      .col-12
+        .px-5
+          .row.mb-4
+            .col-lg-7.mb-4.mb-lg-0(data-aos="fade-right")
+              .row.mb-3
+                .col-12
+                  .p-4.bg-c8
+                    .row.align-items-center
+                      .col-md-auto.mb-4.mb-md-0
+                        figure
+                          img(src='@/assets/curso/tema1/img5.png', alt='', style="width: 90px").m-auto
+                      .col
+                        p.mb-0 Los conductos o toberas de admisión son indispensables en las culatas del motor, porque permiten el ingreso de la mezcla aire y combustible desde el colector o múltiple de admisión; donde a través de la válvula pueden ingresar al cilindro del motor.
+              p.mb-0 Los primeros motores disponían de solamente dos válvulas por cilindro, es decir, una válvula de admisión y una válvula de escape, pero conforme han ido avanzando los diseños de los motores modernos, estos ya disponen de tres, cuatro, cinco y hasta seis válvulas por cada cilindro.
+            .col-lg-5(data-aos="fade-left")
+              figure
+                img(src='@/assets/curso/tema1/img6.png', alt='', style="width: 450px").m-auto
+          .row.justify-content-center
+            .col-lg-9
+              .row.align-items-center
+                .col-lg-4.d-none.d-lg-block(data-aos="fade-right")
+                  figure
+                    img(src='@/assets/curso/tema1/img7.png', alt='', style="width: 280px").m-auto
+                .col-lg-8(data-aos="fade-left")
+                  .titulo-sexto.color-acento-contenido.mb-3
+                    p.mb-0 #[b Figura 2]. Los motores modernos disponen de varias válvulas por cilindro
+                  figure
+                    figure
+                    img(src='@/assets/curso/tema1/img4.svg', alt='La imagen muestra un esquema técnico de la distribución de válvulas en un motor de combustión interna, destacando el funcionamiento del sistema de admisión y escape en la cámara de combustión.', style="width: 530px").m-auto
+    .row.justify-content-center
+      .col-md-7.col-lg-3.bg-c9(data-aos="fade-right")
+        .p-3.h-100
+          .row.h-100.align-items-center
+            .col-12
+              figure
+                img(src='@/assets/curso/tema1/img5.svg', alt='', style="width: 90px").m-auto
+      .col-md-7.col-lg-4.bg-c10(data-aos="fade-down")
+        .p-3
+          p.mb-0 Estos conductos forman parte de la fundición de la culata, pero en algunos casos son maquinados para mejorarlos e igualar con ello, el flujo entre cilindros del motor.
+      .col-md-7.col-lg-5(data-aos="fade-left")
+        .p-3
+          p.mb-0 Podemos revisar varias culatas, en las cuales estos conductos tienden a ser redondeados; esto se debe a que tiene que producir un flujo remolinante a los gases o mezcla cuando están ingresando, para que las moléculas del combustible y del aire se mezclen adecuadamente.
+    .row.bg-c11
+      .col-12
+        .px-5.pb-5
+          Separador
+          #t_1_3
+          .titulo-segundo.color-acento-contenido
+            h2 1.3. Conductos de escape de la culata
+          .row
+            .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
+              p.mb-0 Cuando se realizan las fundiciones de las culatas, resulta necesario diseñar unos ductos para los gases de escape. Esto, para que los gases quemados, producto de la combustión al interior de la cámara y empuje del pistón dentro del cilindro, salgan hacia la atmósfera rápidamente y así evitar un aumento de la temperatura en la culata del motor.
+            .col-lg-4.mb-4.mb-lg-0(data-aos="fade-down")
+              figure
+                img(src='@/assets/curso/tema1/img9.png', alt='', style="width: 450px").m-auto
+            .col-lg-4(data-aos="fade-left")
+              .row
+                .col-12
+                  figure.d-none.d-lg-block
+                    img(src='@/assets/curso/tema1/img10.png', alt='', style="width: 100px")
+                  p.mb-0 Estos ductos tendrán una sola salida por cada cilindro del motor, permitiendo que una, dos omás válvulas de escape abran el paso del cilindro hasta el tubo de escape. Si se revisacuidadosamente los diseños de tales conductos, se puede observar que intentan mantener una sección cuadrada o rectangular, justamente para que los gases de salida fluyan ágil y directamente hasta el colector de escape y luego por el tubo hasta la atmósfera.
  
 </template>
 
