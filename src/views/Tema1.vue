@@ -119,7 +119,7 @@
                 .col-12
                   figure.d-none.d-lg-block
                     img(src='@/assets/curso/tema1/img10.png', alt='', style="width: 100px")
-                  p.mb-0 Estos ductos tendrán una sola salida por cada cilindro del motor, permitiendo que una, dos omás válvulas de escape abran el paso del cilindro hasta el tubo de escape. Si se revisacuidadosamente los diseños de tales conductos, se puede observar que intentan mantener una sección cuadrada o rectangular, justamente para que los gases de salida fluyan ágil y directamente hasta el colector de escape y luego por el tubo hasta la atmósfera.
+                  p.mb-0 Estos ductos tendrán una sola salida por cada cilindro del motor, permitiendo que una, dos o más válvulas de escape abran el paso del cilindro hasta el tubo de escape. Si se revisa cuidadosamente los diseños de tales conductos, se puede observar que intentan mantener una sección cuadrada o rectangular, justamente para que los gases de salida fluyan ágil y directamente hasta el colector de escape y luego por el tubo hasta la atmósfera.
  
 </template>
 

@@ -15,7 +15,7 @@
               .row.bg-c2.h-100.align-items-center
                 .col-12
                   .p-4
-                    p.mb-0 Un árbol de levas, es un mecanismo formado por un eje en el que se ubican distintas levas; que a su vez, pueden tener diferentes formas, tamaños y estar orientadas de diferente manera, para activar mecanismos a intervalos repetitivos como ocurre con las válvulas. Dicho de otro modo, un árbol de levas se constituye un temporizador mecánico cíclico.
+                    p.mb-0 Un árbol de levas es un mecanismo formado por un eje en el que se ubican distintas levas, que a su vez pueden tener diferentes formas, tamaños y estar orientadas de diferente manera, para activar mecanismos a intervalos repetitivos, como ocurre con las válvulas. Dicho de otro modo, un árbol de levas se constituye en un temporizador mecánico cíclico.
             .col-lg-8(data-aos="fade-left")
               figure
                 img(src='@/assets/curso/intro/img2.png', alt='', style="width: 790px").m-auto

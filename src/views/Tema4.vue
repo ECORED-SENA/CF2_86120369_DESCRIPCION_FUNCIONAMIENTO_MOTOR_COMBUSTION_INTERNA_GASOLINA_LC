@@ -29,7 +29,7 @@
                     figure
                       img(src='@/assets/curso/tema4/img3.png', alt='', style="width: 460px").m-auto
                   .col-lg-6
-                    p En algunos casos, en los bordes de los orificios de lubricación también se instalan anillos metálicos, que sellan las posibles fugas hacia los costados, pudiendo tener adicionalmente sellos de goma (O-rings).
+                    p En algunos casos, en los bordes de los orificios de lubricación también se instalan anillos metálicos, que sellan las posibles fugas hacia los costados, pudiendo tener adicionalmente sellos de goma (#[i O-rings]).
                     .titulo-sexto.color-acento-contenido.mb-3
                       p.mb-0 #[b Figura 4]. Junta de culata
                     figure
