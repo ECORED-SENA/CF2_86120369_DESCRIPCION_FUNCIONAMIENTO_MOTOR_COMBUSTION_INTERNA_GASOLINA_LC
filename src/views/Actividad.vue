@@ -23,6 +23,8 @@ export default {
       introduccion:
         '<b> Objetivo:</b> evaluar el conocimiento sobre los componentes y el funcionamiento del sistema de válvulas, culata y árbol de levas en motores de combustión interna.',
       barajarPreguntas: true,
+      titulo_aprobado: '¡BUEN TRABAJO!',
+      titulo_reprobado: '¡VUELVA A INTENTARLO!',
       preguntas: [
         {
           id: 1,
