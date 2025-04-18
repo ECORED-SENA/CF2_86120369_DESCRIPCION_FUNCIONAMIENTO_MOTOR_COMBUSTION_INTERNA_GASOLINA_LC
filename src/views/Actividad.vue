@@ -60,7 +60,7 @@ export default {
         {
           id: 2,
           texto: '¿Qué función cumplen los seguros de las válvulas?',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -91,7 +91,7 @@ export default {
           id: 3,
           texto:
             '¿Cuál es el propósito de los conductos de admisión en la culata?',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -122,7 +122,7 @@ export default {
           id: 4,
           texto:
             '¿Cuál es la ventaja de los motores con más de dos válvulas por cilindro?',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -152,7 +152,7 @@ export default {
         {
           id: 5,
           texto: '¿Para qué se utilizan los muelles de las válvulas?',
-          imagen: require('@/assets/actividad/imagen2.png'),
+          imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -214,7 +214,7 @@ export default {
         {
           id: 7,
           texto: '¿Cuál es la función del empaque de la culata?',
-          imagen: require('@/assets/actividad/imagen2.png'),
+          imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -245,7 +245,7 @@ export default {
           id: 8,
           texto:
             '¿Por qué se requiere una tensión previa en los muelles de las válvulas al ser instalados?',
-          imagen: require('@/assets/actividad/imagen2.png'),
+          imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -276,7 +276,7 @@ export default {
           id: 9,
           texto:
             '¿Cómo se logra la sincronización entre el eje de levas y el cigüeñal?',
-          imagen: require('@/assets/actividad/imagen3.png'),
+          imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -307,7 +307,7 @@ export default {
           id: 10,
           texto:
             '¿Cuál es la principal función de las cámaras de combustión en la culata?',
-          imagen: require('@/assets/actividad/imagen3.png'),
+          imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {

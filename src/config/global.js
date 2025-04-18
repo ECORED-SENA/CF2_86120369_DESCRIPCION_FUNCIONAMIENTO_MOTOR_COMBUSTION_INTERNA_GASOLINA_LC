@@ -195,12 +195,12 @@ export default {
       autores: [
         {
           nombre: 'Milady Tatiana Villamil Castellanos',
-          cargo: 'Líder del Ecosistema',
+          cargo: 'Líder del ecosistema',
           centro: 'Dirección General',
         },
         {
           nombre: 'Olga Constanza Bermudez Jaimes',
-          cargo: 'Responsable de Línea de Producción Huila',
+          cargo: 'Responsable de línea de producción',
           centro: 'Dirección General',
         },
       ],
@@ -211,12 +211,11 @@ export default {
         {
           nombre: 'Carlos Edwin Abello Rubiano',
           cargo: 'Experto temático',
-          centro:
-            'Centro de la Tecnología del Diseño y la Productividad Empresarial - Regional Cundinamarca',
+          centro: 'Centro de Comercio y Turismo - Regional Quindío',
         },
         {
           nombre: 'Ana Catalina Córdoba Sus',
-          cargo: 'Evaluadora Instruccional',
+          cargo: 'Evaluadora instruccional',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
@@ -227,9 +226,9 @@ export default {
       autores: [
         {
           nombre: 'Blanca Flor Tinoco Torres',
-          cargo: 'Diseñador de Contenidos Digitales',
+          cargo: 'Diseñador de contenidos digitales',
           centro:
-            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+            'Centro de Formación Centro de Servicios de Salud - Regional Antioquia',
         },
         {
           nombre: 'Jhon Jairo Urueta Alvarez',
@@ -239,19 +238,19 @@ export default {
         },
         {
           nombre: 'Alejandro Delgado Acosta',
-          cargo: 'Intérprete Lenguaje de señas',
+          cargo: 'Intérprete lenguaje de señas',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
           nombre: 'Cristhian Giovanni Gordillo Segura',
-          cargo: 'Intérprete Lenguaje de señas',
+          cargo: 'Intérprete lenguaje de señas',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
           nombre: 'Daniela Muñoz Bedoya',
-          cargo: 'Animador y Productor Multimedia',
+          cargo: 'Animador y productor multimedia',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
@@ -268,25 +267,25 @@ export default {
       autores: [
         {
           nombre: 'Aixa Natalia Sendoya Fernández',
-          cargo: 'Validador de Recursos Educativos Digitales',
+          cargo: 'Validador de recursos educativos digitales',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
           nombre: 'Jaime Hernán Tejada Llano',
-          cargo: 'Validador de Recursos Educativos Digitales',
+          cargo: 'Validador de recursos educativos digitales',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
           nombre: 'Raúl Mosquera Serrano',
-          cargo: 'Evaluador para Contenidos Inclusivos y Accesibles',
+          cargo: 'Evaluador para contenidos inclusivos y accesibles',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
           nombre: 'Daniel Ricardo Mutis Gómez',
-          cargo: 'Evaluador para Contenidos Inclusivos y Accesibles',
+          cargo: 'Evaluador para contenidos inclusivos y accesibles',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },

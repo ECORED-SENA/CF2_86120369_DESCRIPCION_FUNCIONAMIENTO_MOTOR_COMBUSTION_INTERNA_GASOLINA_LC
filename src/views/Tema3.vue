@@ -50,7 +50,7 @@
                   p.mb-0 La forma de dicha cámara puede ser diseñada por cada fabricante, pero fundamentalmente debe responder a la relación de compresión que requiere este tipo de motor respecto al diseño de la cabeza del pistón; para que el flujo del ingreso de la mezcla hasta el cilindro se produzca sin restricciones y el combustible inyectado en el aire aspirado se vaya mezclando homogéneamente, y así al final del trabajo del motor, los gases combustionados salgan con gran facilidad hacia la atmósfera.
                 .col-lg-4
                   figure
-                    img(src='@/assets/curso/tema3/img6.png', alt='', style="width: 400px").m-auto
+                    img(src='@/assets/curso/tema3/img6.png', alt='La imagen muestra un esquema detallado de la cámara de combustión de dos válvulas por cilindro.', style="width: 400px").m-auto
               .row.justify-content-center.align-items-center
                 .col-lg-6.mb-4.mb-lg-0
                   p #[b Cámara de combustión de tres válvulas por cilindro]
@@ -58,7 +58,7 @@
                   p.mb-0 Sin embargo, una culata puede ser diseñada para que disponga de tres válvulas, dos de ellas de admisión con diámetros menores y una válvula de escape de mayor dimensión. Con este aumento de válvulas de admisión se logra el mayor llenado del cilindro y con ello mayores potencias del motor.
                 .col-lg-4
                   figure
-                    img(src='@/assets/curso/tema3/img7.png', alt='', style="width: 400px").m-auto
+                    img(src='@/assets/curso/tema3/img7.png', alt='La imagen muestra un esquema detallado de la cámara de combustión de tres válvulas por cilindro.', style="width: 400px").m-auto
               .row.justify-content-center.align-items-center
                 .col-lg-6.mb-4.mb-lg-0
                   p #[b Cámaras combustión cuatro válvulas por cilindro]
@@ -67,7 +67,7 @@
                   p.mb-0 También se han instalado dentro de esta cámara a dos válvulas de escape, que a pesar de tener menor diámetro que las válvulas de admisión.
                 .col-lg-4
                   figure
-                    img(src='@/assets/curso/tema3/img8.png', alt='', style="width: 400px").m-auto
+                    img(src='@/assets/curso/tema3/img8.png', alt='La imagen muestra un esquema detallado de la cámara de combustión de cuatro válvulas por cilindro.', style="width: 400px").m-auto
 
 </template>
 
