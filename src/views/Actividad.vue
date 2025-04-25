@@ -151,7 +151,8 @@ export default {
         },
         {
           id: 5,
-          texto: '¿Para qué se utilizan los muelles de las válvulas?',
+          texto:
+            '¿Cuál es la función de los muelles en el sistema de válvulas de un motor?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
