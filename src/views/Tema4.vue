@@ -34,6 +34,7 @@
                       p.mb-0 #[b Figura 4]. Junta de culata
                     figure
                       img(src='@/assets/curso/tema4/img4.png', alt='La imagen muestra una junta de culata, un componente esencial en los motores de combustión interna.', style="width: 460px").m-auto
+                    figcaption.mt-2 #[b Nota.] Junta de culata (s.f.). [Imagen].
     .row.justify-content-center.mb-4(data-aos="fade-down")
       .col-md-7.col-lg-7.col-xl-4.bg-c17
         .row.h-100.align-items-center

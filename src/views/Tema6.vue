@@ -18,7 +18,8 @@
                   .titulo-sexto.color-acento-contenido.mb-3
                     p.mb-0 #[b Figura 6.] Árbol de levas
                   figure
-                    img(src='@/assets/curso/tema6/img1.png', alt='La imagen muestra un árbol de levas, un componente fundamental en los motores de combustión interna.', style="width: 520px").m-auto
+                    img(src='@/assets/curso/tema6/img1.png', alt='La imagen muestra un árbol de levas, un componente fundamental en los motores de combustión interna.', style="width: 590px").m-auto
+                  figcaption.mt-2 #[b Nota.] Árbol de levas (s.f.). [Imagen].
     Separador
     .row.bg-c19
       .col-12

@@ -33,6 +33,7 @@
                 p.mb-0 #[b Figura 5.] Etapas de admisión de los gases y la salida
               figure
                 img(src='@/assets/curso/tema5/img3.png', alt='La imagen muestra un esquema del funcionamiento del sistema de admisión y escape en un motor de combustión interna, resaltando los componentes clave involucrados en la mezcla de combustible y la expulsión de gases quemados.', style="width: 480px").m-auto
+              figcaption.mt-2 #[b Nota.] Etapas de admisión de los gases y la salida (s.f.). [Imagen].
 
 </template>
 

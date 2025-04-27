@@ -54,6 +54,7 @@
                     figure
                       figure
                       img(src='@/assets/curso/tema1/img2.svg', alt='La imagen muestra un esquema detallado del mecanismo de una válvula de motor, destacando sus componentes principales: platillo, retenedor, válvula, seguro, muelle y cabezote.', style="width: 380px").m-auto
+                    figcaption.mt-2 #[b Nota.] Seguro (s.f.). [Imagen].
     Separador
     #t_1_2
     .titulo-segundo.color-acento-contenido
@@ -87,7 +88,8 @@
                     p.mb-0 #[b Figura 2]. Los motores modernos disponen de varias válvulas por cilindro
                   figure
                     figure
-                    img(src='@/assets/curso/tema1/img4.svg', alt='La imagen muestra un esquema técnico de la distribución de válvulas en un motor de combustión interna, destacando el funcionamiento del sistema de admisión y escape en la cámara de combustión.', style="width: 530px").m-auto
+                    img(src='@/assets/curso/tema1/img4.svg', alt='La imagen muestra un esquema técnico de la distribución de válvulas en un motor de combustión interna, destacando el funcionamiento del sistema de admisión y escape en la cámara de combustión.', style="width: 590px").m-auto
+                  figcaption.mt-2 #[b Nota.] Los motores modernos disponen de varias válvulas por cilindro (s.f.). [Imagen].
     .row.justify-content-center
       .col-md-7.col-lg-3.bg-c9(data-aos="fade-right")
         .p-3.h-100
@@ -129,6 +131,14 @@ export default {
   data: () => ({
     mostrarIndicadorTarjetaAudio: true,
   }),
+  mounted() {
+    this.$nextTick(() => {
+      this.$aosRefresh()
+    })
+  },
+  updated() {
+    this.$aosRefresh()
+  },
 }
 </script>
 

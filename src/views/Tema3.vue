@@ -34,6 +34,7 @@
                 p.mb-0 #[b Figura 3]. Cámara de combustión
               figure
                 img(src='@/assets/curso/tema3/img3.png', alt='La imagen muestra un esquema del proceso de admisión en un motor de combustión interna, destacando el flujo de aire y combustible hacia la cámara de combustión.', style="width: 400px").m-auto
+              figcaption.mt-2 #[b Nota.] Cámara de combustión (s.f.). [Imagen].
             .col-lg-5.d-none.d-lg-block(data-aos="fade-left")
               figure
                 img(src='@/assets/curso/tema3/img4.png', alt='', style="width: 400px").m-auto
